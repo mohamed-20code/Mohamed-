@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f5f7fb;
+    color: #34495e;
+}
+
+header {
+    background-color: #3a5ba0;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a6fdc;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 6px;
+}
+
+nav a:hover {
+    color: #dbe4ff;
+}
+
+section {
+    padding: 30px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content img {
+    width: 180px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(52, 73, 94, 0.25);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background-color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #2c3e50;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 320px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+    border-radius: 6px;
+    border: 1px solid #cfd6e4;
+}
+
+button {
+    background-color: #4a6fdc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #3a5ba0;
+}
+
+footer {
+    background-color: #3a5ba0;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
